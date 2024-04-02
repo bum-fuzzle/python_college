@@ -1,0 +1,7 @@
+num=int(input("enter the num"))
+s=''
+while(num!=0):
+    num=num%2
+    s=str(num)+s
+    num=num/2
+print(s)    
